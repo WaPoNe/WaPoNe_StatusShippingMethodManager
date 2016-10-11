@@ -17,7 +17,7 @@ Please use the “Merge” upload mode. Do not replace the whole folders, but me
 ### Enabling methods
 
 1. Go to System - Configuration - WaPoNe - Status Shipping Method Manager.
-![](doc/images/statusstaticblocksmanager_config.png)
+![](doc/images/statusshippingmethodmanager_config.png)
 2. Set to 'Yes' *Enabling* field if you want to enable shipping methods.
 3. Select shipping methods to enable.
 4. Enter the date and the time when script has to start (cron job *wapone_status_shipping_manage* runs every five minutes by default).
