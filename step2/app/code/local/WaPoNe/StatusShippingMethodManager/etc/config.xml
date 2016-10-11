@@ -1,0 +1,28 @@
+<config>
+    <modules>
+        <WaPoNe_StatusShippingMethodManager>
+            <version>1.0.0</version>
+        </WaPoNe_StatusShippingMethodManager>
+    </modules>
+
+    <global>
+        <models>
+            <wapone_statusshippingmethodmanager>
+                <class>WaPoNe_StatusShippingMethodManager_Model</class>
+            </wapone_statusshippingmethodmanager>
+        </models>
+    </global>
+
+    <crontab>
+        <jobs>
+            <wapone_status_shipping_manage>
+                <schedule>
+                    <cron_expr>*/30 * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>wapone_statusshippingmethodmanager/statusshippingmethodmanager::manageShippingStatus</model>
+                </run>
+            </wapone_status_shipping_manage>
+        </jobs>
+    </crontab>
+</config>
