@@ -1,0 +1,8 @@
+{
+  "name": "wapone/status-shipping-method-manager",
+  "description": "A Magento extension to schedule shipping method enabling/disabling",
+  "type": "magento-module",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}
